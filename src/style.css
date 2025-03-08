@@ -1,5 +1,28 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(1, 77, 1);
+}
+.card{
+   
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    
+}
+.icon.top{
+    position: absolute;
+    top: 5px;
+    margin-left: 5px;
+    
+}
+.icon.bottom{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    transform: rotate(180deg);
 }
